@@ -2,10 +2,6 @@ bool_to_int = lambda value: int(value)
 print(bool_to_int(True))
 print(bool_to_int(False))
 
-def bool_to_int(value): return int(value)
-print(bool_to_int(True))
-print(bool_to_int(False))
-
 get_smaller = lambda a, b: min(a, b)
 print(get_smaller(16, 31))
 print(get_smaller(253, 223))
