@@ -40,3 +40,4 @@ def standardize(x, x_center, scale_size):
    return (x-x_center)/scale_size
 print(standardize(x=8.2, x_center=13.8, scale_size=4.83))
 print(standardize(scale_size=24.63, x=2.89, x_center=-72.813))
+
